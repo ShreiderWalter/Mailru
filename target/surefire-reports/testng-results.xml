@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.bsu.vbabenya.MailRUTest" duration-ms="137533" started-at="2015-12-27T09:10:41Z" finished-at="2015-12-27T09:12:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="137533" started-at="2015-12-27T09:10:41Z" finished-at="2015-12-27T09:12:58Z">
+      <class name="com.bsu.vbabenya.MailRUTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="setUp" is-config="true" duration-ms="2175" started-at="2015-12-27T12:10:41Z" description="Init browser" finished-at="2015-12-27T12:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="oneCanLoginMailRU()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="oneCanLoginMailRU" duration-ms="24745" started-at="2015-12-27T12:10:43Z" description="Login to Mail.ru" finished-at="2015-12-27T12:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCanLoginMailRU -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="setUp" is-config="true" duration-ms="1259" started-at="2015-12-27T12:11:08Z" description="Init browser" finished-at="2015-12-27T12:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isUserLoggedTest()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="isUserLoggedTest" duration-ms="25056" started-at="2015-12-27T12:11:09Z" depends-on-methods="com.bsu.vbabenya.MailRUTest.oneCanLoginMailRU" finished-at="2015-12-27T12:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserLoggedTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="setUp" is-config="true" duration-ms="1342" started-at="2015-12-27T12:11:34Z" description="Init browser" finished-at="2015-12-27T12:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isMessageExistTest()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="isMessageExistTest" duration-ms="24899" started-at="2015-12-27T12:11:35Z" depends-on-methods="com.bsu.vbabenya.MailRUTest.isUserLoggedTest" finished-at="2015-12-27T12:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMessageExistTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="setUp" is-config="true" duration-ms="1216" started-at="2015-12-27T12:12:00Z" description="Init browser" finished-at="2015-12-27T12:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canWriteMessageTest()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="canWriteMessageTest" duration-ms="25378" started-at="2015-12-27T12:12:02Z" depends-on-methods="com.bsu.vbabenya.MailRUTest.isMessageExistTest" finished-at="2015-12-27T12:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canWriteMessageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="setUp" is-config="true" duration-ms="1354" started-at="2015-12-27T12:12:27Z" description="Init browser" finished-at="2015-12-27T12:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hasValidContacts()[pri:0, instance:com.bsu.vbabenya.MailRUTest@dfd3711]" name="hasValidContacts" duration-ms="30070" started-at="2015-12-27T12:12:28Z" depends-on-methods="com.bsu.vbabenya.MailRUTest.canWriteMessageTest" finished-at="2015-12-27T12:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasValidContacts -->
+      </class> <!-- com.bsu.vbabenya.MailRUTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.bsu.vbabenya.MailRUTest -->
+</testng-results>
